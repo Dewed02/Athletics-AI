@@ -7,7 +7,7 @@ XML_PATH = '/project/arcc-students/dwalton5/miniconda/Atheltics_Stuff/reupload/t
 images = os.listdir(IMAGE_PATH)
 xmls = os.listdir(XML_PATH)
 
-rf = roboflow.Roboflow(api_key='IcukSAxORpooF3IBUNsS')
+rf = roboflow.Roboflow(api_key='Put key here')
 PROJECT_NAME = "ARCCModels"  # Whatever your workspace name is
 project = rf.project("uwyo-basketball-player-detection")
 print(project)
