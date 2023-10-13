@@ -37,7 +37,7 @@ def enhance_class_name(class_names: List[str]) -> List[str]:
     ]
 
 
-rf = roboflow.Roboflow(api_key='IcukSAxORpooF3IBUNsS')
+rf = roboflow.Roboflow(api_key='Put key here')
 PROJECT_NAME = "ARCCModels"  # Whatever your workspace name is
 project = rf.project("basketball-clip")
 print(project)
