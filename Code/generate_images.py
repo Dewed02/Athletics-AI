@@ -9,5 +9,5 @@ video_paths = sv.list_files_with_extensions(
 
 with sv.ImageSink(target_dir_path=IMAGE_PATH, image_name_pattern= 'frame{}.jpg') as sink:
     for image in sv.get_video_frames_generator(source_path='/project/arcc-students/dwalton5/miniconda/Atheltics_Stuff/basketball_clip.mp4', stride=FRAME_STRIDE):
-        print('hi')
+        print('working')
         sink.save_image(image=image)
